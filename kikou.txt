@@ -1,4 +1,6 @@
 hello world!
 this my second modification after updating my local repository
 waw ça roule!!!
+And after modification in the cloud it must rain to the computer by the command git pull
+
 
