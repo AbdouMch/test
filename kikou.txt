@@ -3,4 +3,13 @@ this my second modification after updating my local repository
 waw ça roule!!!
 And after modification in the cloud it must rain to the computer by the command git pull
 
+Create a repo from command line
+
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/AbdouMch/test.git
+git push -u origin master
 
