@@ -1,0 +1,27 @@
+{
+	"new function": {
+		"prefix": "nf",
+		"body": [
+		  "function ${1:functionName}($2){",
+		  "  $3",
+		  "}"
+		],
+		"description": "new function"
+	  },
+	  "echo new line": {
+		"prefix": "enl",
+		"body": [
+		  "echo $1 .\"<br />\";"
+		],
+		"description": "echo new line"
+	  },
+	  "show array": {
+		"prefix": "sar",
+		"body": [
+		  "echo \"<pre>\";",
+		  "print_r($1);",
+		  "echo \"</pre>\";"
+		],
+		"description": "show array"
+	  }
+}
